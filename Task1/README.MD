@@ -151,9 +151,4 @@ Then confirm in the AWS Console that the EC2 instance, VPC and related resources
 - State files, `.tfvars` files and SSH keys are excluded from Git through `.gitignore`.
 - Restrict `allowed_ssh_cidr` to your own IP instead of `0.0.0.0/0`.
 
-## Possible improvements
 
-- Remote state in S3 with DynamoDB locking
-- Reusable modules
-- Private subnets with a NAT gateway and an Application Load Balancer
-- IAM roles instead of access keys
