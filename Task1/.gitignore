@@ -1,0 +1,25 @@
+# Local Terraform directory (downloaded providers)
+.terraform/
+
+# State files (can contain sensitive data)
+*.tfstate
+*.tfstate.*
+
+# Variable files (may contain your IP or secrets)
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Crash logs and override files
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# SSH keys and credentials - never commit these
+*.pem
+terraform-key
+terraform-key.pub
+.env
